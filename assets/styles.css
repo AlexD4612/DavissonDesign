@@ -6,6 +6,12 @@ body {
     justify-content: center;
 }
 
+body#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 p,
 h1 {
     color: white;
@@ -18,17 +24,31 @@ section#title h1 {
     margin: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 section#logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-img {
+section#logo img {
     width: 25%;
     padding-bottom: 0;
     margin-bottom: 0;
     padding-right: 5em;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav img {
+    width: 5%;
 }
 
 section#title h1 {
@@ -37,4 +57,48 @@ section#title h1 {
 
 section#links p {
     font-size: 40px;
+}
+
+section#words {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+}
+
+section#words h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+section#words p {
+    font-size: 2em;
+    align-self: flex-start;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: left;
+    white-space: no-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+section#subwords {
+    width: 50%;
+    align-self: center;
+}
+
+img#ig {
+    width: 3%;
+}
+
+img#tik {
+    width: 4%;
+    padding-top: 1em;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    align-self: center;
+    text-align: center;
 }
