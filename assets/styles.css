@@ -6,10 +6,16 @@ body {
     justify-content: center;
 }
 
-p {
+p,
+h1 {
     color: white;
     font-family: "Josefin Sans Light";
     text-align: center;
+}
+
+section#title h1 {
+    padding: .5em 0 1em 0;
+    margin: 0;
 }
 
 section#logo {
@@ -25,12 +31,7 @@ img {
     padding-right: 5em;
 }
 
-section {
-    padding: 0;
-    margin: 0;
-}
-
-section#title p {
+section#title h1 {
     font-size: 75px;
 }
 
