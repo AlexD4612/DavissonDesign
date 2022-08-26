@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+nav a {
+    width: 100%;
+}
+
 section#logo {
     display: flex;
     flex-direction: row;
@@ -68,6 +72,7 @@ section#words {
 
 section#words h1 {
     font-size: 4em;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -83,7 +88,7 @@ section#words p {
 }
 
 section#subwords {
-    width: 50%;
+    width: 65%;
     align-self: center;
 }
 
