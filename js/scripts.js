@@ -13,6 +13,7 @@ const lg = lightGallery($lgContainer, {
     closable: false,
     // Add maximize icon to enlarge the gallery
     showMaximizeIcon: true,
-    plugins: [lgZoom, lgThumbnail]
+    plugins: [lgZoom, lgThumbnail],
+    licenseKey: "330606F9-008A4857-9C672CF4-0A9A0DE0"
 });
 lg.openGallery(0);
