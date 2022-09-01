@@ -18,7 +18,7 @@ const inlineGallery = lightGallery($lgContainer, {
     // Do not allow users to close the gallery
     closable: false,
     // Add maximize icon to enlarge the gallery
-    showMaximizeIcon: true,
+    showMaximizeIcon: false,
     // Append caption inside the slide item
     // to apply some animation for the captions (Optional)
     appendSubHtmlTo: ".lg-item",
