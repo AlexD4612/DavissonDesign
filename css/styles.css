@@ -149,3 +149,35 @@ footer {
     height: 500px;
     margin: 0 auto;
 }
+
+@media (min-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative
+    }
+}
+
+@media (min-width:481px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative
+    }
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative
+    }
+}
