@@ -159,6 +159,15 @@ footer {
     body {
         position: relative
     }
+    .gallery-item {
+        width: 150px;
+        padding: 5px;
+    }
+    .gallery-container {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width:481px) {
@@ -168,6 +177,15 @@ footer {
     }
     body {
         position: relative
+    }
+    .gallery-item {
+        width: 150px;
+        padding: 5px;
+    }
+    .gallery-container {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
     }
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 }
@@ -179,5 +197,23 @@ footer {
     }
     body {
         position: relative
+    }
+}
+
+@media (min-width:961px) {
+    body {
+        overflow-x: auto;
+    }
+    body {
+        position: relative;
+    }
+    .gallery-item {
+        width: 200px;
+        padding: 5px;
+    }
+    .gallery-container {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
     }
 }
