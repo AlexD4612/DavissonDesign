@@ -27,6 +27,7 @@ const inlineGallery = lightGallery($lgContainer, {
     // You can find caption animation demo on the captions demo page
     slideDelay: 400,
     plugins: [lgZoom, lgThumbnail],
+    licenseKey: "330606F9-008A4857-9C672CF4-0A9A0DE0",
     dynamicEl: [{
             src: "../assets/canyon.jpg",
             responsive: "../assets/canyon.jpg 480, ../assets/canyon.jpg 800",
